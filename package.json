@@ -9,14 +9,29 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/next-js": "^2.1.5",
+    "@chakra-ui/react": "^2.8.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mantine/hooks": "^6.0.20",
+    "@mui/base": "5.0.0-beta.15",
     "@types/node": "20.6.2",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
+    "axios": "^1.5.0",
     "eslint": "8.49.0",
     "eslint-config-next": "13.4.19",
+    "formik": "^2.4.4",
+    "framer-motion": "^10.16.4",
+    "lodash.debounce": "^4.0.8",
     "next": "13.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.2.2"
+    "typescript": "5.2.2",
+    "yup": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/lodash.debounce": "^4.0.7",
+    "eslint-plugin-react-hooks": "^4.6.0"
   }
 }
